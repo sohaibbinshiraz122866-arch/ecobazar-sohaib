@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+	--gren-gray-scale-900: #002603;
+	--gren-gray-scale-800: #173b1a;
+	--gren-gray-scale-700: #2b572e;
+	--gren-gray-scale-600: #406b42;
+	--gren-gray-scale-500: #618062;
+	--gren-gray-scale-400: #7a997c;
+	--gren-gray-scale-300: #96b297;
+	--gren-gray-scale-200: #b4ccb4;
+	--gren-gray-scale-100: #dae5da;
+	--gren-gray-scale-50: #edf2ee;
+	--gray-scale-gray-–-900: #1a1a1a;
+	--gray-scale-gray-–-800: #333;
+	--gray-scale-gray-–-700: #4d4d4d;
+	--gray-scale-gray-–-600: #666;
+	--gray-scale-gray-–-500: #808080;
+	--gray-scale-gray-–-400: #999;
+	--gray-scale-gray-–-300: #b3b3b3;
+	--gray-scale-gray-–-200: #ccc;
+	--gray-scale-gray-–-100: #e6e6e6;
+	--gray-scale-gray-–-50: #f2f2f2;
+	--gray-scale-white: #fff;
+	--branding-success-bright: #84d187;
+	--branding-success: #00b207;
+  --gray-scale-white: #ffffff;
+	--branding-success-dark: #2c742f;
+	--branding-warning: #ff8a00;
+	--branding-error: #ea4b48;
+  --font-family: "Poppins", sans-serif;
+  --second-family: "Segoe Script", sans-serif;
+  --third-family: "Dancing Script", sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+iconify-icon{
+  vertical-align: middle;
+}
+
+ul,ol{
+  list-style: none !important;
+}
+
+a{
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h4,h5,h6,ul,ol,span,address{
+  margin: 0;
+  padding: 0;
+}
+/* Common css ends here */
+
+/* part 1 starts here */
+
+#singleproduct{
+  background-color: white;
+  overflow: hidden;
+}
+
+#singleproduct .col-lg-6 .upArrow{
+  color: #4d4d4d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#singleproduct .col-lg-6 .downArrow{
+  color: #4d4d4d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#singleproduct .col-lg-6 a{
+  margin:  46px 0;
+}
+
+.side-img{
+  border: 2px solid transparent;
+  padding: 4px;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.side-img:hover{
+  border: 2px solid var(--branding-success);
+}
+
+.mainimg img{
+  width: 556px;
+  height: 556px;
+  object-fit: contain;
+  display: block;
+}
+/* part 1 ends here */
+
+/* part 2 starts here */
+.productDetails{
+  margin-top: 40px;
+  padding-bottom: 80px;
+}
+.productDetails h2{
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 120%;
+  color: var(--gray-scale-gray-–-900);
+  padding-bottom: 12px 0;
+}
+
+.productDetails .stock{
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  background-color: var(--branding-success-dark);
+}
+
+.reviews{
+  display: flex;
+  gap: 0;
+}
+
+.reviews iconify-icon{
+  color: #FF8A00;
+  font-size: 20px;
+}
+
+.productDetails .productReview{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-600);
+}
+
+.productDetails .productReview .bold{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-800);
+}
+
+.productDetails .discount .gray{
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+text-decoration: line-through;
+color: var(--gray-scale-gray-–-300);
+}
+
+.productDetails .discount .bold2{
+font-weight: 500;
+font-size: 24px;
+line-height: 150%;
+color: var(--branding-success-dark);
+}
+
+.productDetails .discount .bold3{
+font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+border-radius: 20%;
+padding: 5px;
+background: rgba(234, 75, 72, 0.1);
+color: var(--branding-error);
+}
+
+.price-border{
+  margin-top: 12px;
+  border-bottom: 1px solid var(--gray-scale-gray-–-100);
+}
+/* part 2 ends here */
+
+/* part 3 starts here */
+   .brand{
+    padding-top: 24px;
+   }
+
+   .brand img{
+    display: block;
+   }
+
+   .brand h4{
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 150%;
+     color: var(--gray-scale-gray-–-900);
+   }
+
+   .brand .brand-info{
+    display: flex;
+    gap: 8px;
+   }
+
+   .brand-info{
+    border: 1px solid var(--gray-scale-gray-–-200);
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-align: center;
+   }
+
+   .brand-info p{
+    margin: 0;
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 100%;
+    color: #555;
+   }
+
+   .shareitem{
+    margin-left: 195px;
+   }
+
+   .shareitem ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 8px;
+}
+
+.shareitem ul li a{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--gray-scale-gray-–-400);
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.shareitem ul li a:hover{
+  background: var(--branding-success);
+  color: #fff;
+}
+
+.product-text{
+color: var(--gray-scale-gray-–-500);
+}
+
+.product-text p{
+  margin: 0;
+}
+
+.product-border{
+  margin-top: 12px;
+  border-bottom: 1px solid var(--gray-scale-gray-–-100);
+}
+/* part 3 ends here */
+
+/* part 4 starts here */
+
+.quantity{
+  display: flex;
+  align-items: center;
+  border: 1px solid #E6E6E6;
+  border-radius: 40px;
+  padding: 4px;
+}
+
+.qty-btn{
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: #F2F2F2;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+.qty-input{
+  width: 40px;
+  border: none;
+  text-align: center;
+}
+
+.cart-btn{
+  background: var(--branding-success);
+  color: white;
+  padding: 12px 32px;
+  border-radius: 43px;
+  text-decoration: none;
+  width: 368px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.heart{
+  background: transparent;
+  color: green;
+  padding: 20px;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 43px;
+}
+
+.heart:hover{
+  background: #90EE90;
+  transition: 0.3s;
+  color: black;
+}
+
+.chart-border{
+   border-bottom: 1px solid var(--gray-scale-gray-–-100);
+}
+
+.category{
+  margin: 15px 0;
+  gap: 10px;
+}
+
+.category p{
+margin-bottom: 0;
+font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+color: var(--gray-scale-gray-–-900);
+}
+.category span{
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+color: var(--gray-scale-gray-–-500);
+}
+
+.tag{
+  gap: 10px;
+}
+.tag p{
+margin-bottom: 0;
+font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+color: var(--gray-scale-gray-–-900);
+}
+
+ .veg{
+border-bottom: 1px solid transparent;
+transition: 0.3s;font-weight: 400;
+cursor: pointer;
+
+font-size: 14px;
+line-height: 150%;
+color: var(--gray-scale-gray-–-500);
+}
+
+.veg:hover{
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+/* part 4 ends here */
+
+/* Venobox */

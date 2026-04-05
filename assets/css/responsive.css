@@ -1,0 +1,135 @@
+@media(max-width: 991px) {
+  header .quicklinks li {
+    padding: 0 5px;
+    border-right: none;
+  }
+}
+
+/* Mobile devices (max-width: 575px) */
+@media (max-width: 575px) {
+
+  #psLeftArrow,
+  #psRightArrow {
+    display: none !important;
+  }
+}
+
+/* bnr4 responsive starts here */
+/* Tablet */
+/* Tablet */
+@media (max-width: 991px) {
+
+  #bnr .bnr1,
+  #bnr .bnr2,
+  #bnr .bnr3 {
+    min-height: 420px;
+  }
+
+  #bnr h2 {
+    font-size: 32px;
+  }
+
+  #bnr {
+    margin-top: 60px;
+  }
+}
+
+
+/* Mobile */
+@media (max-width: 575px) {
+
+  #bnr {
+    margin-top: 40px;
+  }
+
+
+
+  #bnr h2 {
+    font-size: 26px;
+  }
+
+  #bnr h5 {
+    font-size: 12px;
+    padding-top: 15px;
+  }
+
+  #bnr .bnrCnt {
+    gap: 8px;
+  }
+
+  #bnr .timeBox .num {
+    font-size: 16px;
+  }
+
+  #bnr .Btn5,
+  #bnr .Btn6,
+  #bnr .Btn7 {
+    padding: 8px 18px;
+    font-size: 13px;
+  }
+
+  #bnr .col-lg-4 {
+    margin-bottom: 16px;
+  }
+
+}
+
+/* bnr4 responsive ends here */
+
+/* Bannr Section 5 responsive starts here */
+/* Image center + responsive */
+.pimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pimg img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Text + review icon center */
+.pcnt {
+  text-align: center;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+
+/* Bannr Section 5 responsive ends here */
+
+/* single product responsive starts here */
+@media(max-width: 650px) {
+  .productDetails .productReview {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    color: var(--gray-scale-gray-–-600);
+  }
+
+  .shareitem {
+    margin-left: 55px;
+  }
+
+  .brand {
+    flex-wrap: wrap;
+  }
+
+  .shareitem ul {
+    gap: 6px;
+  }
+
+  .shareitem ul li a {
+    width: 34px;
+    height: 34px;
+    font-size: 16px;
+  }
+
+}
+
+/* single product responsive ends here */
